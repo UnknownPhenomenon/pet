@@ -1,0 +1,23 @@
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+  .introduction {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .link-gray {
+    font-weight: 400;
+    color: gray;
+  }
+
+  .main-link {
+    margin-top: 20px;
+  }
+
+  .link-blue {
+    color: blue;
+  }

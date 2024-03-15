@@ -1,0 +1,63 @@
+body {
+    height: 3000px;
+}
+
+div {
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-preview {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.profile-image-container {
+    margin-right: 9px;
+}
+
+.profile-image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.button-container {
+    display: flex;
+    margin-right: 60px;
+}
+
+.friend-button {
+    background-color: rgb(112, 136, 232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.message-button {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

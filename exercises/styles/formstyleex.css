@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(34, 34, 48);
+    height: 1000px;
+    font-family: arial;
+    margin: auto;
+}
+
+*{ 
+    font-size: 13px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; 
+    min-width: 350px;
+    max-width: 600px;
+    margin:0 50px 50px 50px;
+}
+
+form >:nth-child(5){
+    padding: 10px 20px 10px 15px;
+    margin: 0 0 10px 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+img{
+    width: 27px;
+    fill: white;
+}
+
+.inner-input-content{
+    margin: 0 0 0 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.input-container {
+    display: flex;
+    background-color: rgb(51, 51, 70);
+    border-radius: 7px;
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: rgb(150, 150, 150);
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.input {
+    display: flex;
+    background-color: rgb(51, 51, 70);
+    border: none;
+    border-radius: 7px;
+    color: rgb(214, 214, 214);
+    resize: none
+}
+
+.input:focus {
+    outline: none;
+    color: rgb(214, 214, 214);
+}
+
+.input::placeholder {
+    color: rgb(214, 214, 214);
+}
+
+button {
+    color: white;
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: rgb(99, 72, 195);
+    transition: background-color 0,25s;
+}
+
+button:hover{
+    background-color:rgb(127, 95, 241) ;
+}
+
+button:active{
+    background-color:rgb(81, 59, 160);
+}

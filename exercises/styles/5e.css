@@ -1,0 +1,45 @@
+p {
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .new {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(217, 141, 0);
+  }
+
+  .MacBook {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .Supercharged {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .price {
+    color: rgb(101, 101, 101);
+    font-weight: 600;
+    margin-top: 13px;
+  }
+
+  .container {
+    text-align: center;
+  }
+  #btn {
+    background-color: rgb(53, 144, 219);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 12px;
+    cursor: pointer;
+  }

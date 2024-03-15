@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog-project</title>
+    <style>
+      * {
+        font-size: 20px;
+        margin: 0;
+      }
+
+      body {
+        margin: 0;
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain, contain;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav > a {
+        color: black;
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+      }
+
+      main {
+        padding: 0 6rem 0 6rem;
+        background-image: url(blog-img/главный\ экран\ Тайланд.jpg);
+        background-repeat: no-repeat;
+        background-size: 1500px;
+      }
+
+      .first-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40rem;
+      }
+
+      .thailand-container {
+        flex-grow: 0.3;
+      }
+
+      .thailand {
+        font-family: Cormorant Infant;
+        font-size: 128px;
+        font-style: italic;
+        font-weight: 700;
+        color: #ffe3cf;
+        line-height: 155px;
+        text-align: center;
+      }
+
+      .temperature-container {
+        align-self: flex-end;
+      }
+
+      .weather {
+        display: flex;
+        justify-content: center;
+      }
+
+      .weather-img {
+        width: 31px;
+      }
+
+      .temperature {
+      }
+
+      /* .gradient {
+        background-image: linear-gradient(rgba(0 0 0 0), rgba(255, 0, 0, 0));
+        height: 158px;
+        z-index: 200;
+      } */
+
+      .journey-img {
+        width: 334px;
+      }
+
+      .guide-img {
+        width: 70px;
+        border-radius: 50%;
+      }
+
+      .photographer-img {
+        width: 70px;
+        border-radius: 50%;
+      }
+
+      .arrow {
+        width: 47px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="background-image-container">
+          <img src="blog-icons/logo.svg" alt="" />
+        </div>
+        <nav>
+          <a href="#">Расписание</a>
+          <a href="#">Блог</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </header>
+      <section class="first-page">
+        <div class="thailand-container"><p class="thailand">Тайланд</p></div>
+        <div class="temperature-container">
+          <p>Средняя <span>температура</span></p>
+          <div class="weather">
+            <img
+              class="weather-img"
+              src="blog-icons/Погода 1.svg"
+              alt="погода сегодня"
+            />
+            <p class="temperature">26℃</p>
+          </div>
+        </div>
+        <div class="gradient"></div>
+      </section>
+      <section>
+        <p>Выберите свое незабываемое путешествие</p>
+        <img
+          class="journey-img"
+          src="blog-icons/места путешествия.svg"
+          alt="Места путешествия"
+        />
+        <p>
+          Идейные соображения высшего порядка, а также социально-экономическое
+          развитие позволяет оценить значение переосмысления внешнеэкономических
+          политик. Идейные соображения высшего порядка, а также семантический
+          разбор внешних противодействий в значительной степени обусловливает
+          важность дальнейших направлений развития. Банальные, но неопровержимые
+          выводы, а также тщательные исследования конкурентов в равной степени
+          предоставлены сами себе!
+        </p>
+        <p>
+          Идейные соображения высшего порядка, а также социально-экономическое
+          развитие позволяет оценить значение переосмысления внешнеэкономических
+          политик. Идейные соображения высшего порядка, а также семантический
+          разбор внешних противодействий в значительной степени обусловливает
+        </p>
+        <button>Узнать больше</button>
+        <img class="arrow" src="blog-icons/Arrow 1.svg" alt="стрелочка" />
+        <p>Проводники</p>
+        <img class="guide-img" src="blog-img/Гид 1.jpg" alt="фото гида" />
+        <p>Анна Иванова</p>
+        <p>Гид</p>
+        <p>Лучший маршрут для путешествий летом.</p>
+        <img
+          class="photographer-img"
+          src="blog-img/Фотограф 1.png"
+          alt="фото фотографа"
+        />
+        <p>Кирилл Андреев</p>
+        <p>Фотограф</p>
+        <p>Моё любимое место для фотографий.</p>
+        <button>Забронировать</button>
+        <img class="arrow" src="blog-icons/Arrow 1.svg" alt="стрелочка" />
+        <img
+          class="video-preview"
+          src="blog-img/видео.png"
+          alt="Превью видео"
+        />
+        <img
+          class="play-button"
+          src="blog-icons/play_circle_filled_white_24px_2.svg"
+          alt="Кнопка проигрывания"
+        />
+        <p>Смотреть видео</p>
+        <p>Взгляните на свое путешествие</p>
+      </section>
+      <section>
+        <p>Незабываемый</p>
+        <p>Тайланд</p>
+        <p>
+          Бангкок/Паттайя/Чиангмай/Аюттхая/Пхукет/Бангкок/Паттайя/Чиангмай/Аюттхая/Пхукет/Бангкок/Паттайя/Чиангмай
+        </p>
+        <button>Забронировать</button>
+        <img class="arrow" src="blog-icons/Arrow 1.svg" alt="стрелочка" />
+        <p>Ближайшие походы:</p>
+        <p>05</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>08</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>15</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>22</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>26</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>28</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <p>30</p>
+        <p>Июня</p>
+        <p>Неповторимый Тайланд</p>
+        <button>Забронировать</button>
+        <img class="arrow" src="blog-icons/Arrow 1.svg" alt="стрелочка" />
+        <p>Подпишитесь на нас, чтобы узнать первым о ближайших турах</p>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

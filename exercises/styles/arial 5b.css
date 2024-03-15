@@ -1,0 +1,16 @@
+p {
+    font-family: arial;
+    margin-bottom: 0;
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+
+  .text {
+    color: red;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 20px;
+  }

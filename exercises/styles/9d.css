@@ -1,0 +1,25 @@
+p {
+    color: white;
+    font-family: arial;
+}
+
+.container {
+    background-color: black;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 310px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

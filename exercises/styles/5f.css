@@ -1,0 +1,28 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: arial;
+  }
+
+  .main-price {
+    font-size: 30px;
+  }
+
+  .currency {
+    color: rgb(108, 108, 108);
+    font-size: 15px;
+  }
+
+  .today-price {
+    color: green;
+    margin-top: 5px;
+  }
+
+  .tomorrow-price {
+    color: rgb(103, 103, 103);
+    margin-top: 5px;
+  }
+
+  .later-price {
+    color: rgb(236, 41, 41);
+  }

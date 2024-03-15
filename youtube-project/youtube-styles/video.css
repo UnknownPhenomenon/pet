@@ -1,0 +1,134 @@
+
+  .thumbnail {
+    width: 100%;
+  }
+
+  .video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .channel-picture {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    display: inline-block;
+  }
+
+.channel-picture .tooltip{
+  position: absolute;
+  display: flex;
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border-radius: 5px;
+  padding-right: 23px;
+  align-items: center;
+  box-shadow: 5px 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  pointer-events: none;
+  top: 50px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+}
+
+.profile-picture-container:hover .tooltip{
+opacity: 1;
+}
+
+.channel-img-tooltip{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.channel-info-tooltip{
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+ justify-content: center;
+ font-family: arial;
+ line-height: 25px;
+}
+
+.video-author-tooltip{
+  font-weight: bold;
+}
+
+.subscribers-number{
+  color: gray;
+  font-size: 14px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.profile-picture {
+  width: 35px;
+  border-radius: 25px;
+}    
+
+.thumbnail-row {
+  margin-bottom: 7px;
+  position: relative;
+}  
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}  
+
+.video-author {
+  margin-bottom: 4px;
+}     
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}  
+
+@media (min-width: 1125px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 870px) and (max-width: 1124px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+  .video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding: 4px;
+  }

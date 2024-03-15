@@ -1,0 +1,58 @@
+.name {
+    border-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 130px;
+    display: inline-block;
+    transition: border-color 0.15s;
+}
+
+.name:hover {
+    border-color: rgb(71, 71, 190);
+}
+
+.mail {
+    border-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 284px;
+    display: block;
+    margin-top: 10px;
+    transition: border-color 0.15s;
+}
+
+.mail:hover {
+    border-color: rgb(71, 71, 190);
+}
+
+button {
+    background-color: rgb(10, 121, 217);
+    border: none;
+    border-radius: 7px;
+    width: 304px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: rgb(71, 71, 190);
+}

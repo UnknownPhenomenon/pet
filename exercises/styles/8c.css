@@ -1,0 +1,42 @@
+.contain {
+    text-align: center;
+}
+
+#URL {
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 400px;
+    height: 28px;
+    padding-left: 11px;
+    margin-bottom: 0;
+}
+
+#URL:focus {
+    border-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+#google {
+    width: 200px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#one {
+    border: none;
+    background-color: rgb(225, 225, 225);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+p {
+    width: 270px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button {
+    border-style: solid;
+    border-color: rgb(158, 157, 157);
+    border-radius: 3px;
+    vertical-align: middle;
+}

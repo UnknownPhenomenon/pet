@@ -1,0 +1,22 @@
+.flexbox {
+    display: flex;
+}
+
+.left-section {
+    background-color: lightpink;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    margin-left: 32px;
+}
+
+.right-section {
+    width: 200px;
+    background-color: lightblue;
+}
